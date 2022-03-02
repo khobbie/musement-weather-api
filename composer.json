@@ -1,4 +1,9 @@
 {
+    "name": "ampahkwabena/musement-weather-api",
+    "authors": [{
+        "name": "Kwabena Ampah",
+        "email": "ampahkwabena5@gmail.com"
+    }],
     "type": "project",
     "license": "proprietary",
     "minimum-stability": "stable",
@@ -11,10 +16,9 @@
         "symfony/dotenv": "6.0.*",
         "symfony/flex": "^2",
         "symfony/framework-bundle": "6.0.*",
+        "symfony/http-client": "6.0.*",
         "symfony/runtime": "6.0.*",
         "symfony/yaml": "6.0.*"
-    },
-    "require-dev": {
     },
     "config": {
         "allow-plugins": {
@@ -66,5 +70,11 @@
             "allow-contrib": false,
             "require": "6.0.*"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "symfony/browser-kit": "6.0.*",
+        "symfony/css-selector": "6.0.*",
+        "symfony/phpunit-bridge": "^6.0"
     }
 }
