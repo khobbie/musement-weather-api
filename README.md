@@ -1,18 +1,21 @@
 # Kwabena Ampah | JAGAAD Assignment Musement API
-This is an API design test for JAGAAD. Code is build with PHP 8.0 and powered by Symfony 6.
+Code is build with PHP 8.0 and powered by Symfony 6.
 ## Running locally:
 To run this locally, you just need Composer & Docker installed. 
+
 - clone repo from git and cd into project directory
--  install dependencies with "composer install" and run "docker-compose up -d" to spin up a container (docker should be running)
-- Access Container CLI via Docker app or by running "docker-exec -it"
-- Start up local server by running "symfony server:start -d"
+- rename `.env.example` to <b>`.env`</b>
+- install dependencies with <b>`composer install`</b> and run <b>`docker-compose up -d`</b> to spin up a container (docker should be running)
+- Access Container CLI via Docker app or by running <b>`docker-exec -it`</b>
+- Start up local server by running <b>`symfony server:start -d`</b>
+
 ```sh
-$ git clone [url]
-$ cd /jagaad-musement-api
-$ composer install
-$ docker-compose up -d"
-$ docker-exec -it
-$ symfony server:start -d
+ git clone https://github.com/khobbie/musement-weather-api.git
+ cd /musement-weather-api
+ composer install
+ docker-compose up -d
+ docker-exec -it
+ symfony server:start -d
 ```
 ## Step 1 | Development
 The objective here was to build a service that gets the list of the cities from Musement's API
