@@ -205,9 +205,9 @@ Assumption: Only Forecasts for 7 days are available (includes current day)
 
 ### Questions answered
 
-- Weather in Paris today (Friday) : api/v3/cities/{100}/forecasts/1 or api/v3/cities/{100}/forecasts?day=1
-- Weather in Paris tomorrow (Saturday) : api/v3/cities/{100}/forecasts/2 or api/v3/cities/{100}/forecasts?day=2
-- Weather in Amsterdam for number of days: api/v3/cities/{57}/forecasts?day=3
+- Weather in Paris today (Friday) : `api/v3/cities/{100}/forecasts/1` or `api/v3/cities/{100}/forecasts?day=1`
+- Weather in Paris tomorrow (Saturday) : `api/v3/cities/{100}/forecasts/2 or api/v3/cities/{100}/forecasts?day=2`
+- Weather in Amsterdam for number of days: `api/v3/cities/{57}/forecasts?`day=3
 
 ## Running Tests
 Tests wriiten with help of php-unit and can be run with the following command.
